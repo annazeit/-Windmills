@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// This is my first script to rotate a windmill.
 public class SimpleRotation : MonoBehaviour
 {
     const float StepPerSecond = 200.0f;
@@ -13,12 +14,6 @@ public class SimpleRotation : MonoBehaviour
 
     [Header("Speed Down Key")]
     public KeyCode SpeedDown = KeyCode.None;
-
-    //public KeyCo
-    // Start is called before the first frame update
-    void Start(){
-        
-    }
 
     // Update is called once per frame
     void Update(){
