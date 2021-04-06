@@ -9,10 +9,10 @@ public class SimpleRotation : MonoBehaviour
     
     private float RotationPerSecond = 10.0f;
 
-    [Header("Speed Up Key")]
+    [Header("Speed Control")]
+    
     public KeyCode SpeedUp = KeyCode.None;
 
-    [Header("Speed Down Key")]
     public KeyCode SpeedDown = KeyCode.None;
 
     // Update is called once per frame
